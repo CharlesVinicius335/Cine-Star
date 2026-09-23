@@ -25,3 +25,10 @@ class Cinema:
                 return
 
             print("Filme não encontrado.")
+
+    def buscar_filme(self, nome):
+            for filme in self.filmes:
+                if filme.nome.lower() == nome.lower():
+                    print(f"\nFilme encontrado: {filme}")
+                    return
+            print("Filme não encontrado.")

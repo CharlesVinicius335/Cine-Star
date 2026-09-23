@@ -8,8 +8,9 @@ def menu():
           
 1 - Cadastrar filme
 2 - Listar filmes
-3 - Alterar status do filme
-4 - Sair
+3 - buscar filme
+4 - Alterar status do filme
+5 - Sair
           
     """)
 
@@ -46,10 +47,14 @@ while True:
         print(cinema1)
 
     elif opcao == '3':
+        nome = input("\nNome do filme que deseja buscar: ")
+        cinema1.buscar_filme(nome)
+
+    elif opcao == '4':
         nome = input("Digite o nome do filme: ")
         cinema1.alterar_status_filme(nome)
     
-    elif opcao == '4':
+    elif opcao == '5':
         print('Encerrando')
         break
     else:
