@@ -15,9 +15,9 @@ def menu():
     """)
 
 
-filme1 = Filme('Vingadores', '180 min', 'Ação')
+filme1 = Filme('Vingadores', '180 minutos', 'Ação')
 filme2 = Filme('As Branquelas', '200 minutos', ' Comédia')
-filme3 = Filme('Zootopia', '200 minitos', 'Animação')
+filme3 = Filme('Zootopia', '200 minutos', 'Animação')
 
 filme1.alterar_status()
 
@@ -58,6 +58,6 @@ while True:
         print('Encerrando')
         break
     else:
-        print('Opção invalida !!')
+        print('Opção inválida !!')
 
 

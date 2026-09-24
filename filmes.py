@@ -19,7 +19,7 @@ class Filme:
         return (
             f'Nome: {self.nome}\n'
             f'Duração: {self.duracao} minutos\n'
-            f'genero: {self.genero}\n'
+            f'Genêro: {self.genero}\n'
             f'Status: {status}'
         )
     
